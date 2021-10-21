@@ -1,0 +1,27 @@
+fieldset {
+    background-color: rgb(240, 220, 245);
+    width: 100%; 
+    max-width: 800px;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Century Gothic;
+    font-size: large;
+}
+
+legend {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 30px;
+}
+
+input {
+    font-family: Century Gothic;
+    font-size: large;
+}

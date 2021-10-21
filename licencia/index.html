@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/licencia/app.js"></script>
+    <link href="/licencia/style.css" rel="stylesheet" type="text/css">
+    <title>Licencia de Conducir</title>
+</head>
+<body>
+    <h2>Formulario sobre Licencia de Conducir</h2>
+    
+    <fieldset>
+        <legend>Ingrese los siguientes datos:</legend>
+        <label for="Nombre">Nombre: </label>
+        <input type="text" id="nombre" required>
+        <br><br>
+        <label for="Apellido">Apellido: </label>
+        <input type="text" id="apellido" required>
+        <br><br>
+        <label for="Edad">Edad:</label>
+        <input type="number" id="edad" required>
+        <br><br>
+        <label for="lic">¿Tiene licencia de conducir?:</label>
+        <select type="text" name="opcion" id="licencia" required>
+            <option value="si">SI</option>
+            <option value="no">NO</option>
+        </select>
+        <br><br>
+        <label for="fechaexpiracion">Fecha de expiracion: </label>
+        <input type="date" id="Fechaexpiracion" required>
+        <br><br>
+        <input type="button" value="Valida" onclick="ValidarLicencia()" id="Validar">
+    </fieldset>
+</body>
+</html>
