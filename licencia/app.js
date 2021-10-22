@@ -32,21 +32,5 @@ function ValidarLicencia() {
 	else {
 		alert(nombre + " " + apellido + " tu licencia está habilitada")
 	}
-	/*
-	
-	else if (parseInt(Fechaexpiracion.value) < parseInt(fullDate)) {
-        alert("Su licencia está expirada");
-    }
-	else(edad >= 18 && licencia === "si" && fecha_exp >= fullDate ) 
-		alert(nombre + apellido +", tu licencia está habilitada." )
-	*/
-
-
-
-
-
-
-    
-
 
 }
